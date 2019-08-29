@@ -2,7 +2,7 @@
 
 ## 0. Requirement
 - selenium
-- chromedriver
+- chromedriver(On the same path with main.py)
 
 ## 1. Reason for developing
 - At ASKERS, I felt the necessity of organizing numerous questions and answers.
