@@ -4,7 +4,7 @@
 - selenium
 - chromedriver (On the same path with main.py)
 
-## 1. Reason for developing
+## 1. Reason for creating the program
 - At ASKERS, I felt the necessity of organizing numerous questions and answers.
 - Only the questions with answers are created to text file.
 
