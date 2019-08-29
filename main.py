@@ -4,7 +4,7 @@ url = input('Input ASKERS URL : ')
 driver = webdriver.Chrome('./chromedriver.exe')
 driver.implicitly_wait(3)
 
-driver.get('url')
+driver.get(url)
 
 ans_css = 'body > app-root > div > div.main-container > app-post-list > div.container > div > div > div.card-list.mt-2 > div > div:nth-child(NUM) > app-post-detail > div.card-body > div.card-title > p > p'
 comment_css = 'body > app-root > div > div.main-container > app-post-list > div.container > div > div > div.card-list.mt-2 > div > div:nth-child(POST_NUM) > app-post-detail > div.card-body > app-reply-list > app-reply-detail:nth-child(COMMENT_NUM) > div > div.card-title > p > p'
